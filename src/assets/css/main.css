@@ -1,0 +1,44 @@
+body {
+    background-color: #222222;
+}
+
+.app{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    nav {
+        background-color: #375B7F;
+    }
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    form {
+        width: 60%;
+        background-color: #303030;
+        color: white;
+        margin: 25px 0;
+
+        .form-body {
+            padding: 17px 25px;
+
+            h1 {
+                font-weight: 400;
+            }
+
+            label {
+                color: rgb(187, 187, 187);
+                padding: 5px 0;
+            }
+        }
+
+    }
+}
